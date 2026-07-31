@@ -9,7 +9,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import root_mean_squared_error
 
-cars = pd.read_csv("used_cars.csv")
+cars = pd.read_csv(r"C:\Users\Rigved Bhondve\OneDrive\Desktop\ML\Car Price Predictor\data\raw\used_cars.csv")
 
 for i in range(cars.shape[0]):
     price_l = cars.loc[i, "price"].split("$")[1].split(",")
