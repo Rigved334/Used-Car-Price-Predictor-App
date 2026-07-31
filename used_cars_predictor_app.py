@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-model = joblib.load("Used_car_price.pkl")
+model = joblib.load(r"C:\Users\Rigved Bhondve\OneDrive\Desktop\ML\Car Price Predictor\model\Used_car_price.pkl")
 
 st.set_page_config(
     page_title="Used Car Price Predictor",
